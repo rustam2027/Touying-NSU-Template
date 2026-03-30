@@ -42,6 +42,8 @@
 #let title-slide(..args) = touying-slide-wrapper(self => {
   let info = self.info + args.named()
   let body = {
+    place(scale(200%, image("pictures/grapher.svg")), dx: 50%)
+    place(image("pictures/logo.svg"), dy: -35%, dx: -15%)
     set align(left + horizon)
     block(
       width: 80%,
@@ -55,8 +57,6 @@
       ),
     )
     set text(fill: self.colors.neutral-darkest)
-    place(image("pictures/logo.svg"), dy: -90%, dx: -12%)
-    place(scale(200%, image("pictures/grapher.svg")), dx: 50%, dy: -50%)
     if info.author != none {
       block([Выполнил: #info.author])
     }
@@ -79,7 +79,7 @@
   body,
 ) = {
   set text(size: 20pt, font: "Montserrat", weight: "regular")
-  set list(marker: [#math.circle.stroked])
+  set list(marker: [#math.circle.stroked], spacing: 0.8em)
   set enum(spacing: 1em)
 
   show: touying-slides.with(
