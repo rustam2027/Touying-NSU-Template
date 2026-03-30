@@ -79,7 +79,7 @@
   body,
 ) = {
   set text(size: 20pt, font: "Montserrat", weight: "regular")
-  set list(marker: [#math.circle.stroked], spacing: 0.8em)
+  set list(marker: text(fill: rgb("#54B686"))[#math.circle.filled], spacing: 0.8em)
   set enum(spacing: 1em)
 
   show: touying-slides.with(
