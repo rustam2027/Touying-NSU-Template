@@ -42,7 +42,7 @@
 #let title-slide(..args) = touying-slide-wrapper(self => {
   let info = self.info + args.named()
   let body = {
-    place(scale(200%, image("pictures/grapher.svg")), dx: 50%)
+    place(scale(200%, image("pictures/grapher.svg")), dx: 50%, dy: 20%)
     place(image("pictures/logo.svg"), dy: -35%, dx: -15%)
     set align(left + horizon)
     block(
@@ -80,7 +80,7 @@
 ) = {
   set text(size: 20pt, font: "Montserrat", weight: "regular")
   set list(marker: text(fill: rgb("#54B686"))[#math.circle.filled], spacing: 0.8em)
-  set enum(spacing: 1em)
+  set enum(spacing: 1em, numbering: it => circle(radius: 0.5em, fill: rgb("#54B686"))[#align(center + horizon, text(size: 0.5em, fill: white, weight: "bold")[#it])])
 
   show: touying-slides.with(
     config-page(
