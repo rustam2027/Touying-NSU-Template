@@ -58,10 +58,10 @@
     )
     set text(fill: self.colors.neutral-darkest)
     if info.author != none {
-      block([Выполнил: #info.author])
+      block([Выполнил:\ #info.author])
     }
     if info.lead != none {
-      block([Научный руководитель: #info.lead])
+      block([Научный руководитель: \ #info.lead])
     }
     if info.date != none {
       block([#info.date])

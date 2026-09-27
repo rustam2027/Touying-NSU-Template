@@ -15,6 +15,8 @@ Example:
 )
 ```
 
+![Preview](thumbnail.png)
+
 ## Enums and Lists
 
 You can use lists and enums as usual.

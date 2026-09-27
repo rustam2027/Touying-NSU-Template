@@ -1,0 +1,11 @@
+[package]
+name = "touying-nsu-template"
+version = "0.1.0"
+entrypoint = "template.typ"
+authors = ["Rustam Salimov <rustam2027@gmail.com>"]
+license = "MIT"
+description = "Novosibirsk State University themed Touying presentation template."
+repository = "https://github.com/rustam2027/Touying-NSU-Template"
+categories = ["presentation", "components"]
+keywords = ["touying", "slides", "telepresentation", "academic"]
+exclude = ["example.pdf", "example.typ"]
