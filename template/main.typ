@@ -8,5 +8,12 @@
   title: [On The Explosion of Large Death Stars],
   author: [Luke Skywalker, Ph.D.],
   lead: [Master Yoda],
-  date: [May 25, 1977] 
+  date: [May 25, 1977],
 )
+
+= Introduction
+
+- Bulleted lists
++ and enumerations
+
+use the NSU accent color out of the box.

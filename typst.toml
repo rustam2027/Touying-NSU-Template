@@ -1,11 +1,16 @@
 [package]
-name = "touying-nsu-template"
+name = "touying-mmf-nsu"
 version = "0.1.0"
 entrypoint = "template.typ"
 authors = ["Rustam Salimov <rustam2027@gmail.com>"]
 license = "MIT"
-description = "Novosibirsk State University themed Touying presentation template."
+description = "Mathematics & Mechanics faculty (NSU) themed Touying slides."
 repository = "https://github.com/rustam2027/Touying-NSU-Template"
 categories = ["presentation", "components"]
-keywords = ["touying", "slides", "telepresentation", "academic"]
+keywords = ["touying", "slides", "presentation", "academic", "Novosibirsk State University"]
 exclude = ["example.pdf", "example.typ"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
